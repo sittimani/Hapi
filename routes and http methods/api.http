@@ -1,0 +1,40 @@
+GET http://localhost:3000/get
+
+###
+POST http://localhost:3000/post
+
+{
+    "name": "manikandan",
+    "age": 21,
+    "email": "manikandansitti@gmail.com"
+}
+
+###
+POST  http://localhost:3000/params/mani
+
+{
+    "name": "mani"
+}
+
+###
+GET http://localhost:3000/headers
+Authorization: "Bearer token"
+Content-Type: application/json
+
+###
+GET http://localhost:3000/all-method
+
+###
+POST http://localhost:3000/all-method
+
+###
+DELETE http://localhost:3000/all-method
+
+###
+GET http://localhost:3000/multiple-method
+
+###
+POST http://localhost:3000/multiple-method
+
+###
+DELETE http://localhost:3000/multiple-method
