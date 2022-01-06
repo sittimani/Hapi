@@ -1,0 +1,8 @@
+GET http://localhost:3000/redirect
+
+###
+GET http://localhost:3000/request-plugin
+
+###
+
+GET http://localhost:3000/h-plugin
