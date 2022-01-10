@@ -1,0 +1,11 @@
+post http://localhost:3000/create-token
+
+{
+    "name": "manikandan",
+    "email":"manikandansitti@gmail.com",
+    "password": "123456d789"
+}
+
+###
+get http://localhost:3000/verify-token
+Authorization:eJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibWFuaWthbmRhbiIsImVtYWlsIjoiIG1hbmlrYW5kYW5zaXR0aUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IjEyMzQ1Njc4OSIsImlhdCI6MTY0MTgxMDI2M30.zbuEfH6mYkdaEfsXgnGPhHYO3Qp62QjszUefHKb7GjI
