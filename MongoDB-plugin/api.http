@@ -1,0 +1,9 @@
+get http://localhost:3000/get-data
+
+
+### 
+post http://localhost:3000/post-data
+
+{
+    "name": "somename"
+}
