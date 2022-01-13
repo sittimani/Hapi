@@ -1,0 +1,21 @@
+post http://localhost:3000/create
+
+{
+    "name":"manikandan",
+    "team": "MEAN"
+}
+
+###
+get http://localhost:3000/get-users
+
+###
+
+put http://localhost:3000/update-user/61dff8ce9aa9fd354ac321e0
+
+{
+    "name": "mk"
+}
+
+###
+
+delete http://localhost:3000/delete-user/61dff8ce9aa9fd354ac321e0
